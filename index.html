@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html>
+<title>Joshua Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Projects</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">About Me</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>Joshua James</b></h1>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="./images/14188280_10155244880963508_2321918166078772948_o.jpg" class = "w3-round" style="width:100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./images/18738963_1714286525254875_1702251570274761603_o (1).jpg" style="width:100%">
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="./images/18738963_1714286525254875_1702251570274761603_o (1).jpg" style="width:100%">
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Homeworks</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Train Schedule</h3>
+      <a href="https://joshuajc23.github.io/TrainSchedule/">https://joshuajc23.github.io/TrainSchedule/</a>
+      <a href="https://github.com/JoshuaJC23/TrainSchedule">https://github.com/JoshuaJC23/TrainSchedule</a>
+      <p>Put in a train and a time for it to start and watch the interval of trains to appear.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Crystal Collector</h3>
+      <a href="https://joshuajc23.github.io/unit-4-game/">https://joshuajc23.github.io/unit-4-game/</a>
+      <a href="https://github.com/JoshuaJC23/unit-4-game">https://github.com/JoshuaJC23/unit-4-game</a>
+      <p>Click the crystals to get to the random number; each crystal is a different value. If you go over you lose, if you get the target number you win.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Trivia Game</h3>
+      <a href="https://joshuajc23.github.io/TriviaGame/">https://joshuajc23.github.io/TriviaGame/</a>
+      <a href="https://github.com/JoshuaJC23/TriviaGame">https://github.com/JoshuaJC23/TriviaGame</a>
+      <p>Push go to begin. Before the time runs out, answer the questions and push submit; any unanswered questions before the time runs out with count against you.  Good Luck!</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Giphy API</h3>
+      <a href="https://joshuajc23.github.io/GiphyAPI/">https://joshuajc23.github.io/GiphyAPI/</a>
+      <a href="https://github.com/JoshuaJC23/GiphyAPI">https://github.com/JoshuaJC23/GiphyAPI</a>
+      <p>Click on a button to pull up some giphy's; click on the image to play the giphy and again to pause it.  You can also add a new giphy show of your choice.  Have Fun!</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Projects</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Project 1</li>
+        <li class="w3-padding-16"><b>Bummer Passwords</b></li>
+        <li class="w3-padding-16"><a href="https://github.com/JoshuaJC23/GiphyAPI">https://github.com/JoshuaJC23/GiphyAPI</a></li>
+        <li class="w3-padding-16"><a href="https://tajamaughan.github.io/BummerPasswords/passwords.html">https://tajamaughan.github.io/<br>BummerPasswords/passwords.html</a></li>
+        <!-- <li class="w3-black w3-xlarge w3-padding-32"><img src="./images/bummerpasswords.PNG" style="width: 100%"></li> -->
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Project 2</li>
+        <li class="w3-padding-16"><b>ShelfChefs</b></li>
+        <li class="w3-padding-16"><a href="http://shelfchef.com/">http://shelfchef.com/</a></li>
+        <li class="w3-padding-16"><a href="https://github.com/shelfchefs/ShelfChefs">https://github.com/shelfchefs/ShelfChefs</a></li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Project 3</li>
+        <li class="w3-padding-16"><b>ShelfChef</b></li>
+        <li class="w3-padding-16">url github coming soon</li>
+        <li class="w3-padding-16">url github pages coming soon</li>
+        <li class="w3-padding-16">picture coming soon</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">About Me</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4 w3-center">
+        <div class="w3-container">
+          <h3>Joshua Christensen</h3>
+          <p>Motivation, determination, team work; these are attributes about me that I put into my work.
+            I am 30 years old, married, and have a baby boy.  I love sports, trying to read more, and spending time with family.
+            As of now I am a delivery driver for Salt Lake Windustrial, but have worked in a mass variety of different jobs.
+            I am wanting a great family structure and to support my wife and kids.  I am determined to earn a great job that I love doing everyday,
+            so, I am putting in all my effort daily to learn code.  Above are some homeworks and projects that I have done; however,
+            as I continue to study and practice everyday I will improve some homeworks and add more to my portfolio.  Also I will improve
+            the projects.  I am willing to take time to learn and grow in my ability and skills.  I stay focused with tasks but am 
+            layed back too.  I work great with others and helping each other is team.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Art Director</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4 w3-center">
+        <div class="w3-container">
+          <h3>Links</h3>
+          <a href="https://github.com/JoshuaJC23"><i class="fa fa-github fa-4x"></i></a>
+          <br>
+          <a href="V=https://www.linkedin.com/feed/"><i class="fa fa-linkedin fa-3x"></i></a>
+          <br>
+          <p><i class="fa fa-email"></i>joshua.christensen13@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Me</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Send</button>
+  </form>
+
+</div>  
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <!-- <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div> -->
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
